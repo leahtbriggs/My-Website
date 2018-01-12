@@ -1,0 +1,255 @@
+/*To do: Add website URL to website clicking site*/
+
+body {
+  font-family: Garamond;
+}
+
+h3 {
+  color: #5f9ea0;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+h5 {
+  color: #317873;
+}
+
+.aboutmecontainer{
+  background: 
+    linear-gradient( rgba(12, 12, 12, 0.9), rgba(12, 12, 12, 0.7)), url("https://i.imgur.com/AhAb7DZ.jpg");
+	background-size: cover;
+  width: 100%;
+  height: auto;
+
+  margin-top: -10px;
+  padding-top: 20px;
+  margin-left: -10px;
+  padding-left: 10px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+}
+
+#Name {
+  text-align: center;
+  color: #e8feff;
+  letter-spacing: 25px;
+  font-weight: bold;
+  font-family: 'Brush Script MT';
+  font-size: 90px;
+
+  margin-top: 25%;
+  margin-right: -25px;
+}
+
+.contactbuttons {
+  text-align: center;
+}
+
+.LinkedIn {
+	display: inline-table;
+	
+  height: 25px;
+	width: 150px;
+	
+  border: 1px solid #82b2ce;
+	color: #ffffff;
+  transition: background-color .8s;
+	
+  text-align: center;
+	font: bold 15px "Lewis Alberto Briffa";
+  text-decoration: none;
+
+  padding-top: 6px;
+}
+
+.LinkedIn:hover {
+  background: rgba(130, 178, 206, 0.25);
+}
+
+.Email {
+	display: inline-table;
+
+	height: 25px;
+	width: 150px;
+
+	border: 1px solid #ffe523;
+	color: #ffffff;
+  transition: background-color .8s;
+
+	text-align: center;
+	font: bold 15px "Lewis Alberto Briffa";
+  text-decoration: none;
+
+  padding-top: 6px;
+}
+ 
+.Email:hover {
+  background: rgba(255, 229, 35, 0.25);
+}
+
+.Resume {
+	display: inline-table;
+
+	height: 25px;
+	width: 250px;
+
+	border: 1px solid #ff2222;
+	color: #ffffff;
+  transition: background-color .8s;
+
+
+	text-align: center;
+	font: bold 15px "Lewis Alberto Briffa";
+  text-decoration: none;
+
+  padding-top: 6px;
+}
+
+.Resume:hover {
+  background: rgba(255, 34, 34, 0.25);
+}
+
+#aboutmename {
+  color: rgba(130, 178, 206, 1);
+  letter-spacing: 8px;
+  font-size: 40px;
+
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+#Objective {
+  text-align: center;
+  color: #1b3333;
+  letter-spacing: 2px;
+  font-size: 25px;
+
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+.personalprojects {
+  background: rgba(12, 12, 12, 0.8);
+  width: 100%;
+  text-align: center;
+  height: auto;
+  background-size: cover;
+  margin-left: -10px;
+  padding-bottom: 30px;
+  padding-right: 35px;
+  padding-top: 20px;
+}
+
+#personalprojectstitle {
+  color: rgba(255, 229, 35, 1);
+  letter-spacing: 8px;
+  font-size: 40px;
+
+  text-align: left;
+
+  padding-left: 30px;
+}
+
+.website {
+  background:
+    linear-gradient( rgba(12, 12, 12, 0.9), rgba(12, 12, 12, 0.7)), url("https://i.imgur.com/AhAb7DZ.jpg");
+  display: inline-table;
+	height: 250px;
+	width: 300px;
+	border: 1px solid rgba(33, 33, 33, 1);
+  transition: background-color .8s;
+	
+  text-align: left;
+	font: 17px Garamond;
+  text-decoration: none;
+  
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.website:hover {
+  background: 
+    linear-gradient( rgba(12, 12, 12, 1), rgba(12, 12, 12, 0.8)), url("https://i.imgur.com/AhAb7DZ.jpg");
+  transition: 
+    background .8s;
+} 
+
+.websitetitle {
+  font: 
+    bold 20px "Lewis Alberto Briffa";
+  letter-spacing: 6px;
+}
+
+.unicornjump {
+  background: 
+    linear-gradient( rgba(12, 12, 12, 0.9), rgba(12, 12, 12, 0.7)), url("https://i.imgur.com/8Q5dzSV.png");
+  display: 
+    inline-table;
+	height: 250px;
+	width: 300px;
+	border: 1px solid rgba(33, 33, 33, 1);
+	text-align: left;
+  transition: background-color .8s;
+
+	font: 17px Garamond;
+  text-decoration:  none;
+
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.unicornjump:hover   {
+  background: linear-gradient( rgba(12, 12, 12, 1), rgba(12, 12, 12, 0.8)), url("https://i.imgur.com/8Q5dzSV.png");
+  transition: background-color .8s;
+} 
+
+.unicornjumptitle {
+  font: bold 20px "Lewis Alberto Briffa";
+  letter-spacing: 6px;
+}
+
+a:link {
+  text-decoration:  none;
+  color: #edf7f5;
+  } 
+
+a:visited {
+  text-decoration:  none;
+  color: #edf7f5;
+  }
+
+.skills {
+	width: 100%;
+  height: auto;
+	background-size: cover;
+
+  padding-top: 20px;
+  margin-left: 15px;
+  padding-bottom: 30px;
+  padding-right: 35px;
+}
+
+.skillstitle {
+  color: rgba(255, 34, 34, 1);
+  letter-spacing: 8px;
+  font-size: 40px;
+
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.skillslist{
+  color: #1b3333;
+  letter-spacing: 2px;
+  font-size: 20px;
+  
+  padding-left: 10px;
+}
+
+#Contact {
+  text-align: center;
+  color: #a7e1e2;
+  letter-spacing: 2px;
+}
