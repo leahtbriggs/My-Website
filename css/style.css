@@ -52,19 +52,20 @@ li.dropdown {
     display: block;
 }
 
+.about {
+  padding-top: 180px;
+  text-align: center;
+}
+
 #pic {
-  height: 180px;
+  height: 250px;
   width: auto;
   border-radius: 50%;
   position: absolute;
   left: 0;
   right:0;
   margin: auto;
-}
-
-.about {
-  padding-top: 180px;
-  text-align: center;
+  padding-top: 5%;
 }
 
 #name {
@@ -72,6 +73,7 @@ li.dropdown {
   font-size: 80px;
   font-family: 'courier new';
   color: #89d6f9;
+  padding-top: 15%;
 }
 
 #about {

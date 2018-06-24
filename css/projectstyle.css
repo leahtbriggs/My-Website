@@ -97,6 +97,15 @@ li.dropdown {
   color: #ffffff;
 }
 
+.dates{
+  margin-top: -55px;
+  font-size: 16px;
+	font-weight: 500;
+	color: #969696;
+  text-align: right;
+  font-family: 'courier new';
+}
+
 .tools{
 	font-size: 16px;
 	font-weight: 500;
