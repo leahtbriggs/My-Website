@@ -1,26 +1,30 @@
+/*
+ * TODO: Fix weird side scrolling issue;
+ */
+
 @font-face {
   font-family: AMSCR;
-  src: url("../fonts/AmaticSC-Regular.ttf");
+  src: url("../../fonts/AmaticSC-Regular.ttf");
 }
 
 @font-face {
   font-family: AMSCB;
-  src: url("../fonts/AmaticSC-Bold.ttf");
+  src: url("../../fonts/AmaticSC-Bold.ttf");
 }
 
 @font-face {
   font-family: CHR;
-  src: url("../fonts/CapitalHandWriting-Regular.ttf");
+  src: url("../../fonts/CapitalHandWriting-Regular.ttf");
 }
 
 @font-face {
   font-family: HR;
-  src: url("../fonts/Habibi-Regular.ttf");
+  src: url("../../fonts/Habibi-Regular.ttf");
 }
 
 @font-face {
   font-family: NF;
-  src: url("../fonts/NameFont-Regular.ttf");
+  src: url("../../fonts/NameFont-Regular.ttf");
 }
 
 body {
@@ -28,6 +32,7 @@ body {
   padding: 0;
   color: #5b5b5b;
   font-family: HR;
+  position: fixed;
 }
 
 @media screen and (max-height: 450px) {
@@ -35,13 +40,13 @@ body {
   .sidenav a {font-size: 18px;}
 }
 
-a {
+#menu a {
   text-decoration: none;
   color: #bcbcbc;
   transition: color 0.3s ease;
 }
 
-a:hover{
+#menu a:hover{
   color: #ffffff;
 }
 
@@ -152,42 +157,29 @@ a:hover{
 }
 
 #main {
-  background: radial-gradient(at 50% bottom, #afafaf, #fff 60%);
-  padding-bottom: 20%;
-  text-align: center;
+  background: radial-gradient(at 50% bottom, #cccccc, #fff 60%);
   text-shadow: 0 1px 0 #fff;
   position:fixed;
   height: 100%;
+  width: 100%;
 }
 
-.about {
-  width: 100vw;
+#contacts {
+  margin-top: 90px;
 }
 
-#pic {
-  margin-top: 8%;
-  border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30vh;
-}
-
-#name {
-  font-family: NF;
-  font-size: 100px;
-  top: -30%;
+#contacts a {
+  text-decoration: none;
+  list-style-type: none;
   text-align: center;
   color: #2c3035;
-  position: relative;
+  font-family: CHR;
+  font-size: 50px;
+  transition: color 0.3s ease;
 }
 
-#about {
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: center;
-  letter-spacing: 1px;
-  font-size: 25px;
+#contacts a:hover{
+  color: #bfbfbf;
 }
 
 #copyright {

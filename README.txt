@@ -1,3 +1,2 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/leahmakesstuff/pen/yvWKrr.
-
+A website created by Leah Briggs copyright 2019
  
