@@ -52,7 +52,7 @@ body {
 
 #menuToggle {
   display: block;
-  position: relative;
+  position: fixed;
   top: 50px;
   left: 50px;
   z-index: 1;
@@ -183,7 +183,7 @@ body {
 }
 
 #copyright {
-  position: fixed;
-  bottom:-25px;
+  position: absolute;
+  bottom:-30px;
   color: #c6c6c6;
 }

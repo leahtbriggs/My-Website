@@ -51,7 +51,7 @@ body {
 
 #menuToggle {
   display: block;
-  position: relative;
+  position: fixed;
   top: 50px;
   left: 50px;
   z-index: 1;
@@ -161,7 +161,9 @@ body {
 #main {
   background: radial-gradient(at 50% bottom, #ddd, #fff 60%);
   height: 100%;
-  position: fixed;
+  position:fixed;
+  overflow-y:scroll;
+  text-shadow: 0 1px 0 #fff;
 }
 
 @media only screen and (max-width: 1026px) {
@@ -246,6 +248,7 @@ body {
 }
 
 #copyright {
-  bottom:-30px;
+  position: fixed;
+  bottom:-20px;
   color: #c6c6c6;
 }
